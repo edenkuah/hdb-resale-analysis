@@ -8,15 +8,38 @@ It contains information on HDB resale transactions, including town, flat type, r
 ## What is it?
 This is a Python program using matplotlib and pandas libaries to analyze HDB resale prices in Singapore. It shows the top 10 most expensive towns in Singapore and returns the data visually with a plotted bar chart. This analysis helps spot trends in the Singapore housing market and can be useful for potential buyers, sellers, and investors to make informed decisions. 
 
-## Image of the output:
-![Top 10 HDB Towns](images/Figure_1.png)
+## Charts & Key Findings
+
+### Top 10 Most Expensive Towns
+![Top 10 Towns](images/top_10_towns.png)
+Bukit Timah leads with an average resale price of ~$775k, significantly higher 
+than most other towns.
+
+### Average Resale Price by Year
+![Price Trend](images/price_trend_by_year.png)
+Resale prices show a clear upward trend over the years, with a notable dip 
+around 2013-2015 before recovering.
+
+### Flat Type Distribution
+![Flat Types](images/flat_type_distribution.png)
+4-room flats are the most commonly transacted flat type in Singapore.
+
+## Tech Stack
+- Python
+- Pandas 
+- Matplotlib
+
 ## How to Use
 1. Clone the repository
 2. Run analysis.py in your terminal
 3. The program will output the top 10 most expensive towns and display a bar chart of the resale prices.
 
-## Why I built this project:
-I built this project to practice data analysis and visualization skills using real-world data. As a bonus, I get to learn about the property market in Singapore.
+## What I Learned
+- How to load and process real-world CSV data with pandas
+- How to group and aggregate data using groupby
+- How to visualise data with matplotlib
+- How to format charts for readability
+- Working with datetime data in pandas
 
 ## Future Improvements
 
