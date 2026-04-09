@@ -41,10 +41,3 @@ around 2013-2015 before recovering.
 - How to format charts for readability
 - Working with datetime data in pandas
 
-## Future Improvements
-
-- Add a line chart to visualize how average resale prices have changed over the years.  
-- Implement a CLI menu to allow users to select different analyses (e.g., top towns, flat types, or trends over time).  
-- Analyze flat types to see which are most common or most expensive.  
-- Include boxplots to visualize price distributions and outliers in each town.  
-- Further enhance visualizations with color-coding, annotations, and formatted labels for better readability.
