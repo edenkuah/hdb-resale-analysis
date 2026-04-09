@@ -32,7 +32,7 @@ def plot_top_towns():
     plt.tight_layout()  # Adjust layout to prevent clipping of labels
 
     # Save image of the graph
-    plt.savefig("images/top_10_towns.png")
+    plt.savefig("images/top_10_towns.png", dpi=300, bbox_inches='tight')
 
     plt.show()
 
@@ -59,7 +59,7 @@ def plot_price_trend_year():
     plt.plot(yearly_avg.index, yearly_avg.values, color="#2c1e75")
 
     # Save image of the graph
-    plt.savefig("images/price_trend_by_year.png")
+    plt.savefig("images/price_trend_by_year.png", dpi=300, bbox_inches='tight')
 
     # Show the graph
     plt.show()
@@ -81,7 +81,7 @@ def plot_flat_types():
     plt.bar(flat_type_counts.index, flat_type_counts.values, color="#4c4088")
 
     # Save image of the graph
-    plt.savefig("images/flat_type_distribution.png")
+    plt.savefig("images/flat_type_distribution.png", dpi=300, bbox_inches='tight')
 
     # Show the graph
     plt.show()
