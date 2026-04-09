@@ -1,0 +1,7 @@
+-r requirements.txt
+# Data visualisation
+matplotlib==3.10.8
+
+# Core data analysis
+pandas==3.0.2
+numpy==2.4.4
